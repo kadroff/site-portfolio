@@ -1,0 +1,49 @@
+.wrapper{
+ margin: 0 auto;
+ width: 940px;
+ padding: 0 10px;
+}
+
+.header {
+
+}
+
+.image-header {
+  position: absolute;
+  top: 0px;
+  left: 35px;
+  right: 25px;
+}
+
+.search-menu {
+  position: relative;
+  word-spacing: 35px;
+  left: 711px;
+  top: -29px;
+}
+
+.search-menu li {
+  list-style-type: none;
+  display: inline;
+  color: #6C7A89;
+}
+
+.search-menu li a {
+  color: #6C7A89;
+  text-decoration: none;
+}
+
+.search-menu li a:hover {
+  color:white;
+}
+
+.logo {
+  width: 44px;
+  position: relative;
+  left: 176px;
+  top: 10px;
+  font-size: 23px;
+  color: #6C7A89;
+  border: 1px solid white;
+  padding: 8px;
+}
