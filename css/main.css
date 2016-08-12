@@ -1,21 +1,23 @@
-.wrapper{
- margin: 0 auto;
- width: 940px;
- padding: 0 10px;
+html {
+    color: #222;
 }
-
 .header {
 
 }
 
 .image-header {
+  width: 1280px;
   position: absolute;
-  top: 0px;
-  left: 35px;
-  right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+
 }
 
 .search-menu {
+  width: 420px;
   position: relative;
   word-spacing: 35px;
   left: 711px;
@@ -45,5 +47,33 @@
   font-size: 23px;
   color: #6C7A89;
   border: 1px solid white;
-  padding: 8px;
+  padding: 9px;
+}
+
+.name {
+  width: 700px;
+  position: relative;
+  top: 105px;
+  left: 368px;
+  font-size: 38px;
+  font-weight: 600;
+  color: white;
+}
+
+.profession {
+  width: 700px;
+  position: relative;
+  top: 80px;
+  left: 475px;
+  font-size: 40px;
+  font-weight: 600;
+  color: gray;
+}
+
+.wrapper {
+  width: 1280px;
+  height: 600px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 }
