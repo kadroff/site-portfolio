@@ -77,3 +77,99 @@ html {
   left: 0;
   right: 0;
 }
+
+.menu {
+  position: absolute;
+}
+
+.skill-image {
+  position: relative;
+  top: 356px;
+  left: 732px;
+}
+
+.skill-header {
+  position: relative;
+  font-size: 43px;
+  top: -20px;
+  left: 170px;
+}
+
+.skill-header-part {
+  position: relative;
+  top: -114px;
+  font-size: 43px;
+  left: 473px;
+}
+
+.skills {
+  position: relative;
+  font-size: 19px;
+  font-weight: 400;
+  top: -105px;
+  left: 168px;
+}
+
+.skills-2 {
+  position: relative;
+  font-size: 19px;
+  font-weight: 400;
+  top: -78px;
+  left: 168px;
+}
+
+.wrapper-2 {
+  width: 1280px;
+  height: 680px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 1200px;
+  background-color: #1b1e25;
+}
+
+.portfolio-name {
+  position: relative;
+  color: white;
+  width: 600px;
+  top: 150px;
+  left: 200px;
+  height: 320px;
+  font-size: 40px;
+  border: 1px solid white;
+  padding-left: 300px;
+  padding-top: 60px;
+}
+
+.github {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+  left: 460px;
+  border: 1px solid white;
+  padding: 28px;
+}
+
+.wrapper-3 {
+  width: 1280px;
+  height: 200px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 1880px;
+}
+
+.contacts-icons {
+  position: relative;
+  list-style-type: none;
+  left: 455px;
+  top: 60px;
+  word-spacing: 200px;
+}
+
+.contacts-icons li {
+  display: inline;
+}
