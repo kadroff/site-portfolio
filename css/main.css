@@ -163,6 +163,7 @@ html {
 }
 
 .contacts-icons {
+  width: 500px;
   position: relative;
   list-style-type: none;
   left: 455px;
