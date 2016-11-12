@@ -1,176 +1,44 @@
-html {
-    color: #222;
-}
-.header {
-
-}
-
-.image-header {
-  width: 1280px;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  top: 0;
-
+body {
+  background: url(../images/header.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: sans-serif;
 }
 
-.search-menu {
-  width: 420px;
-  position: relative;
-  word-spacing: 35px;
-  left: 711px;
-  top: -29px;
+#wrapper {
+	max-width: 960px;
+	margin: auto;
 }
 
-.search-menu li {
-  list-style-type: none;
-  display: inline;
-  color: #6C7A89;
+ul.header-list  {
+  float: right;
+  word-spacing: 25px;
+  margin-top: 40px;
+  font-size: 15px;
 }
 
-.search-menu li a {
-  color: #6C7A89;
-  text-decoration: none;
-}
-
-.search-menu li a:hover {
-  color:white;
-}
-
-.logo {
-  width: 44px;
-  position: relative;
-  left: 176px;
-  top: 10px;
-  font-size: 23px;
-  color: #6C7A89;
-  border: 1px solid white;
-  padding: 9px;
-}
-
-.name {
-  width: 700px;
-  position: relative;
-  top: 105px;
-  left: 368px;
-  font-size: 38px;
-  font-weight: 600;
-  color: white;
-}
-
-.profession {
-  width: 700px;
-  position: relative;
-  top: 80px;
-  left: 475px;
-  font-size: 40px;
-  font-weight: 600;
+.header-list a {
   color: gray;
-}
-
-.wrapper {
-  width: 1280px;
-  height: 600px;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-}
-
-.menu {
-  position: absolute;
-}
-
-.skill-image {
-  position: relative;
-  top: 356px;
-  left: 732px;
-}
-
-.skill-header {
-  position: relative;
-  font-size: 43px;
-  top: -20px;
-  left: 170px;
-}
-
-.skill-header-part {
-  position: relative;
-  top: -114px;
-  font-size: 43px;
-  left: 473px;
-}
-
-.skills {
-  position: relative;
-  font-size: 19px;
-  font-weight: 400;
-  top: -105px;
-  left: 168px;
-}
-
-.skills-2 {
-  position: relative;
-  font-size: 19px;
-  font-weight: 400;
-  top: -78px;
-  left: 168px;
-}
-
-.wrapper-2 {
-  width: 1280px;
-  height: 680px;
-  margin: 0 auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 1200px;
-  background-color: #1b1e25;
-}
-
-.portfolio-name {
-  position: relative;
-  color: white;
-  width: 600px;
-  top: 150px;
-  left: 200px;
-  height: 320px;
-  font-size: 40px;
-  border: 1px solid white;
-  padding-left: 300px;
-  padding-top: 60px;
-}
-
-.github {
-  position: relative;
   text-decoration: none;
+}
+
+.header-list a:hover {
   color: white;
-  font-size: 23px;
-  left: 460px;
-  border: 1px solid white;
-  padding: 28px;
 }
 
-.wrapper-3 {
-  width: 1280px;
-  height: 200px;
-  margin: 0 auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 1880px;
-}
-
-.contacts-icons {
-  width: 500px;
-  position: relative;
-  list-style-type: none;
-  left: 455px;
-  top: 60px;
-  word-spacing: 200px;
-}
-
-.contacts-icons li {
+.header-list li {
   display: inline;
+}
+
+#main-content {
+  color: white;
+  text-align: center;
+  padding-top: 250px;
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+.main-content_profession {
+  color: gray;
+  font-size: 45px;
+  margin: -15px;
 }
