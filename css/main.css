@@ -1,6 +1,7 @@
 body {
-  background: url(../images/home_bg-1.png) no-repeat center center fixed;
-  background-size: cover;
+  background: url(../images/home_bg-1.png) top left no-repeat;;
+  background-attachment: fixed;
+  background-size: contain;
   font-family: sans-serif;
 }
 
