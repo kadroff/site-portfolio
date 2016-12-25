@@ -35,6 +35,7 @@ body {
  		div#header {
  			height: 1560px;
       font-size: 70px;
+      background-size: contain;
     }
 
     div#header h2 {
