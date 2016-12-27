@@ -32,17 +32,13 @@ body {
  }
 
  @media only screen and (max-device-width: 800px) {
-   body {
-     background-position: center top;
-   }
-
  		div#header {
- 			height: 600px;
-      font-size: 23px;
+ 			height: 1280px;
+      font-size: 30px;
     }
 
     div#header h2 {
-      font-size: 30px;
+      font-size: 35px;
     }
 }
 
