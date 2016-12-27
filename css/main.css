@@ -32,6 +32,10 @@ body {
  }
 
  @media only screen and (max-device-width: 800px) {
+   body {
+     background-image: url(../images/background-1.png);
+   }
+
  		div#header {
  			height: 600px;
       font-size: 23px;
