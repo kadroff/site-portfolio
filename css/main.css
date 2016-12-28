@@ -12,7 +12,6 @@ body {
 
 
 .section_1 {
-  margin: 0 auto;
   background: url(../images/background.png) no-repeat center center fixed;
   background-size: cover;
   height: 600px;
@@ -23,28 +22,29 @@ body {
   text-align: center;
 }
 
-.header {
-
- }
-
-.header h1 {
+.section_1 h1 {
   margin: 0 0 25px;
-  padding-top: 250px;
+  padding-top: 280px;
  }
 
-.header h2 {
+.section_1 h2 {
   font-size: 42px;
   margin-top: -20px;
  }
 
  @media only screen and (max-device-width: 800px) {
- 		div.header {
- 			height: 1280px;
-      font-size: 30px;
+ 		div.section_1 {
+        background: url(../images/background.png) no-repeat center center fixed;
+        background-size: cover;
     }
 
-    div.header h2 {
-      font-size: 35px;
+    div.section_1 h1 {
+      font-size: 80px;
+      padding-top: 700px;
+    }
+
+    div.section_1 h2 {
+      font-size: 70px;
     }
 }
 
@@ -78,15 +78,15 @@ body {
 }
 
 @media only screen and (max-device-width: 800px) {
-   div#skills {
-     height: 1300px;
+    div.section_2  {
+      height: 500px;
+    }
+
+   div.section_2 h1 {
+     font-size: 68px;
    }
 
-   div#skills h1 {
-     font-size: 40px;
-   }
-
-   div#skills p {
-     font-size: 20px;
+   div.section_2 p {
+     font-size: 31px;
   }
 }
