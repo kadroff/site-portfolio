@@ -40,7 +40,7 @@ body {
 
     div.section_1 h1 {
       font-size: 80px;
-      padding-top: 700px;
+      padding-top: 600px;
     }
 
     div.section_1 h2 {
@@ -78,6 +78,10 @@ body {
 }
 
 @media only screen and (max-device-width: 800px) {
+    img.skill-image {
+      width: 350px;
+    }
+
     div.section_2  {
       height: 500px;
     }
