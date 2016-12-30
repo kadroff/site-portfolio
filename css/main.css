@@ -90,10 +90,15 @@ body {
 
    div.section_2 h1 {
      font-size: 70px;
+     padding-top: 350px;
    }
 
    div.section_2 p {
      font-size: 32px;
+  }
+
+  div.section_2 .skill-image {
+    padding-top: 350px;
   }
 }
 
