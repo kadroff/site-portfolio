@@ -143,3 +143,11 @@ body {
 .portfolio a {
   text-decoration: none;
 }
+
+@media only screen and (max-device-width: 800px) {
+
+   div.section_portolio {
+     font-size: 70px;
+     padding-top: 350px;
+   }
+}
