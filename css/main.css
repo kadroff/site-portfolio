@@ -150,4 +150,8 @@ body {
      font-size: 70px;
      padding-top: 350px;
    }
+
+   div.textbox  {
+     top: 250px;
+   }
 }
