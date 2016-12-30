@@ -24,7 +24,7 @@ body {
 
 .section_1 h1 {
   margin: 0 0 25px;
-  padding-top: 280px;
+  padding-top: 250px;
  }
 
 .section_1 h2 {
@@ -51,13 +51,13 @@ body {
   /* Skills  */
 
 .section_2 {
-  margin-top: 60px;
+  font-family: Georgia;
   height: 740px;
   background-color: white;
 }
 
 .section_2 h1 {
-  padding-top: 220px;
+  padding-top: 150px;
   font-weight: 400;
   color: #1c1e26;
   font-size: 42px;
@@ -72,25 +72,69 @@ body {
   font-weight: 400;
 }
 
+.section_2 hr {
+  width: 80px;
+  float: left;
+}
+
 .skill-image {
   float: right;
-  padding-top: 220px;
+  padding-top: 150px;
 }
 
 @media only screen and (max-device-width: 800px) {
-    img.skill-image {
-      width: 350px;
-    }
 
     div.section_2  {
-      height: 500px;
+      height: 900px;
     }
 
    div.section_2 h1 {
-     font-size: 68px;
+     font-size: 70px;
    }
 
    div.section_2 p {
-     font-size: 31px;
+     font-size: 32px;
   }
+}
+
+/* Портфолио */
+.section_portolio {
+  height: 750px;
+  background-color: #1c1e26;
+}
+
+.portfolio h1 {
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  font-family: "Helvetica  Neue";
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 49px;
+}
+
+.textbox {
+  height: 400px;
+  position: relative;
+  top: 170px;
+  border: 1px solid white;
+  margin: 20px 0;
+  padding: 1px;
+}
+
+.portfolio p {
+  padding-top: 30px;
+  height: 50px;
+  margin-right: 290px;
+  margin-left: 290px;
+  margin-top: 100px;
+  text-align: center;
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+
+}
+
+.portfolio a {
+  text-decoration: none;
 }
