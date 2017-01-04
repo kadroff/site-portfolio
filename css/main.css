@@ -24,7 +24,7 @@ body {
 
 .section_1 h1 {
   margin: 0 0 25px;
-  padding-top: 250px;
+  padding-top: 280px;
  }
 
 .section_1 h2 {
@@ -57,6 +57,7 @@ body {
 }
 
 .section_2 h1 {
+  width: 520px;
   padding-top: 150px;
   font-weight: 400;
   color: #1c1e26;
@@ -65,10 +66,11 @@ body {
 }
 
 .section_2 p {
+  width: 520px;
   padding-top: 10px;
   color: #1c1e26;
   font-family: Georgia;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -79,18 +81,19 @@ body {
 
 .skill-image {
   float: right;
-  padding-top: 150px;
+  margin-top: -240px;
 }
 
 @media only screen and (max-device-width: 800px) {
 
-    div.section_2  {
+  div.section_2  {
       height: 900px;
+      text-align: center;
     }
 
    div.section_2 h1 {
      font-size: 70px;
-     padding-top: 350px;
+     padding-top: 400px;
    }
 
    div.section_2 p {
@@ -98,7 +101,8 @@ body {
   }
 
   div.section_2 .skill-image {
-    padding-top: 350px;
+    padding-top: 50px;
+    float: none;
   }
 }
 
@@ -148,7 +152,7 @@ body {
 
    div.section_portolio {
      font-size: 70px;
-     padding-top: 350px;
+     padding-top: 280px;
    }
 
    div.textbox  {
@@ -162,4 +166,11 @@ body {
    div.portfolio p  {
      font-size: 30px;
    }
+}
+
+
+/* Contacts */
+
+.contact {
+
 }
