@@ -1,0 +1,61 @@
+@media only screen and (max-device-width: 800px) {
+   div.section_1 {
+       background: url(../images/background.png) no-repeat center center fixed;
+       background-size: cover;
+   }
+
+   div.section_1 h1 {
+     font-size: 80px;
+     padding-top: 600px;
+   }
+
+   div.section_1 h2 {
+     font-size: 70px;
+   }
+}
+
+
+
+@media only screen and (max-device-width: 800px) {
+
+  div.section_2  {
+      height: 900px;
+      text-align: center;
+    }
+
+   div.section_2 h1 {
+     font-size: 70px;
+     padding-top: 0px;
+   }
+
+   div.section_2 p {
+     font-size: 32px;
+  }
+
+  div.section_2 .skill-image {
+    padding-top: 250px;
+    float: none;
+  }
+}
+
+
+
+@media only screen and (max-device-width: 800px) {
+
+   div.section_portolio {
+     font-size: 70px;
+     padding-top: 280px;
+   }
+
+   div.textbox  {
+     top: 250px;
+   }
+
+   div.portfolio h1  {
+     font-size: 50px;
+   }
+
+   div.portfolio p  {
+     font-size: 30px;
+   }
+}
