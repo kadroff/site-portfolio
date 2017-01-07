@@ -73,7 +73,7 @@ body {
 }
 
 .portfolio h1 {
-  padding-top: 50px;
+  padding-top: 30px;
   text-align: center;
   color: white;
   font-family: "Helvetica  Neue";
@@ -82,10 +82,26 @@ body {
   line-height: 49px;
 }
 
+.portfolio-input {
+  margin-left: 340px;
+  font-size: 20px;
+  color: white;
+  width: 290px;
+  height: 70px;
+  margin-top: 80px;
+  border: 2px solid white;
+  background: none;
+}
+
+.portfolio-input:hover {
+  background-color: white;
+  color: #1c1e26;
+}
+
 .textbox {
   height: 400px;
   position: relative;
-  top: 170px;
+  top: 150px;
   border: 1px solid white;
   margin: 20px 0;
   padding: 1px;
@@ -100,7 +116,7 @@ body {
   text-align: center;
   border: 1px solid white;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
 
 }
 
@@ -111,10 +127,98 @@ body {
 
 /* Contacts */
 
-.contact {
-
+.section_contact {
+  background-color: #00c1af;
+  color : white;
 }
 
+.section_contact h1 {
+  margin: 0 0 25px;
+  padding-top: 40px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 42px;
+}
+
+.input {
+  color: white;
+  font-size: 20px;
+  border: #00c1af;
+  background: none;
+  border-bottom: 2px solid white
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+::-moz-placeholder {
+  opacity: 1;
+}
+
+.contact_input-name {
+  width: 98%;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.sixcol {
+  position: relative;
+  overflow: hidden;
+}
+
+.first {
+  float: left;
+}
+
+.last {
+  float: right;
+}
+
+.contact_input-phone {
+  width: 100%;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.contact_input-email {
+  width: 100%;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.contact p {
+  font-size: 17px;
+  font-weight: 400;
+  position: relative;
+  top: 90px;
+  text-align: center;
+}
+
+.contact_textarea {
+  position: relative;
+  top: 70px;
+  width: 100%;
+  height: 190px;
+  border: 2px solid white;
+  background: none;
+}
+
+.content_textarea-input {
+  font-size: 17px;
+  color: white;
+  float: right;
+  width: 290px;
+  height: 60px;
+  margin-top: 100px;
+  border: 2px solid white;
+  background: none;
+}
+
+.content_textarea-input:hover {
+  background-color: white;
+  color: #00c1af;
+}
   /* Media */
 
 

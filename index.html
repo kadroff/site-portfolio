@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title></title>
       <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
-      <link rel="stylesheet" type="text/css" href="css/main.css?v=0.2"/>
+      <link rel="stylesheet" type="text/css" href="css/main.css?v=0.3"/>
   </head>
   <body>
     <!-- Header  -->
@@ -34,7 +34,8 @@
         <div class="wrapper">
           <div class="textbox">
             <h1>PORTFOLIO</h1>
-            <a href="https://github.com/kadroff?tab=repositories"><p>Kadroff.github.io</p></a>
+            <!-- <a href="https://github.com/kadroff?tab=repositories"><p>Kadroff.github.io</p></a> -->
+            <input class="portfolio-input" type="submit" value="Kadroff.github.io">
           </div>
         </div>
       </div>
@@ -43,7 +44,22 @@
     <div class="section section_contact">
         <div class="contact">
           <div class="wrapper">
+            <h1>Напишите мне на почту </h1>
+            <input class="input contact_input-name" type="text" name="Name" placeholder="NAME">
 
+            <div class="clearfix">
+              <div class="sixcol first">
+                <input class="input contact_input-phone" type="text" name="Phone" placeholder="PHONE">
+              </div>
+              <div class="sixcol last">
+                <input class="input contact_input-email" type="text" name="Email" placeholder="E-MAIL">
+              </div>
+            </div>
+            <div class="content_textarea-col">
+              <p>COMMENT PUIS-JE AIDER ?</p><Br>
+              <textarea class="contact_textarea" name="comment" cols="35" rows="3"></textarea>
+              <input class="content_textarea-input" type="submit" value="Отправить">
+            </div>
           </div>
         </div>
       </div>
